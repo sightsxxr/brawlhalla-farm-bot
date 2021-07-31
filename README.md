@@ -1,5 +1,5 @@
 # brawlhalla-farm-bot
-a bot that farms xp and gold for you in brawlhalla while you sleep!
+a simple bot that farms xp and gold for you in brawlhalla while you sleep!
 
 How to use:
 1. download and install python
