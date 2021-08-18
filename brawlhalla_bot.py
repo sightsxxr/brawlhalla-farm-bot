@@ -13,16 +13,22 @@ movement_directions = [keyboard.Key.left, keyboard.Key.right, keyboard.Key.up, k
 
 def press_key():
     key_probability = randint(0, 100)
-    if key_probability < 40:
+    if key_probability < 60:
         my_keyboard.press("c")
         my_keyboard.release("c")
-    elif key_probability < 70 and key_probability > 40:
+    elif key_probability < 80 and key_probability > 60:
         my_keyboard.press("x")
         my_keyboard.release("x")
+        time.sleep(uniform(0, 0.1))
         my_keyboard.press("c")
         my_keyboard.release("c")
     else:
         movement_index = randint(0, 3)
+
+        my_keyboard.press("c")
+        my_keyboard.release("c")
+
+        time.sleep(uniform(0, 0.2))
 
         my_keyboard.press("c")
         my_keyboard.release("c")
