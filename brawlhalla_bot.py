@@ -13,7 +13,7 @@ movement_directions = [keyboard.Key.left, keyboard.Key.right, keyboard.Key.up, k
 
 def press_key():
     key_probability = randint(0, 100)
-    if key_probability < 70:
+    if key_probability < 100:
         my_keyboard.press("c")
         my_keyboard.release("c")
 
