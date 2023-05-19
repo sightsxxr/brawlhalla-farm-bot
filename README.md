@@ -7,8 +7,8 @@ How to use:
 3. open brawlhalla and go to: Custom Game Room > Create Room > Private Room
 4. open the settings and set: mode to timed, match time to 15 mins, damage to 300%, max players to 8 and click confirm
 5. run the python script (run in cmd: python brawlhalla_bot.py)
-6. back in brawlhalla, click the legend you want to use once
-7. press the "home" key on your keyboard to start the bot
-8. to stop the bot press the "home" key again
+7. back in brawlhalla, add the bots to fill all slots then click the legend you want to use once
+8. press the "home" key on your keyboard to start the bot
+9. to stop the bot press the "home" key again
 
 python download link: https://www.python.org/downloads/
